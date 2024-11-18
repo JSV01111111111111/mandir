@@ -1,0 +1,105 @@
+@media screen and   (max-width: 1024px) {
+    h1 {font-size: 40px;}
+    h2 {font-size: 30px;}
+    h4 {font-size: 22px;}
+    p {font-size: 14px;}
+    .nav_bar ul li a {font-size: 14px; padding: 0px 12px;}
+    section.gallery.m_btm {margin-top: 50px;}
+    .About .updates_box {margin: 130px 90px 90px;}
+    .footer::after{font-size: 14px;}
+    .slider .content {bottom: 11.5%;}
+}
+
+
+@media screen and  (max-width: 768px) { 
+h1 {font-size: 30px;} 
+h2 {font-size:25px;}
+h3 {font-size:20px;}
+h4 {font-size: 20px;}
+p {font-size: 14px;}
+#hompage .About .content {width: 100%;}
+#hompage .About {margin-bottom: 40px;}
+.gallery_page .imag_box {width: 32%;}
+.slider .content {bottom: 12.5%;}
+.top_header .social_links {display: none;}
+.nav_bar ul li a {padding: 0px 15px; font-size: 14px;}
+.About .updates_box {margin: 190px 140px 0px 140px;}
+.About .row {flex-direction: column;}
+.About .content {width: 100%;}
+.head_btn .second_btn {display: none;}
+.header .logo img {width: 100%; max-width: 320px;}
+.About .blog_feed_bar {width: 100%; margin-top: 30px;}
+.section.gallery.m_btm {margin-top: 0px;}
+.footer .social_links {font-size: 16px;}
+.nav_bar ul li a { padding: 0px 8px; font-size: 10px; }
+.global_btn {font-size: 12px;}
+.hanuman  {height: 200px; background-size: 300px;}
+.footer::after {font-size: 14px;}
+.banner {padding: 350px 0px 100px;}
+.slider .owl-nav {display: none;}
+.footer::before {top: -15%;}
+.item.slide1 .content h1 br{display: none;}
+.nav_bar .dropdown li a {font-size: 14px;}
+
+}
+
+
+@media screen and  (max-width: 425px){ 
+h1 {font-size: 28px;} 
+h2 {font-size: 24px;} 
+h4 {font-size: 18px;}     
+.top_header .top-nav {display: none;}
+.gallery_page .imag_box {width: 48%;}
+.top_header .social_links {display: block;}
+.top_side_bar {justify-content: space-between; width: 100%; flex-direction: row-reverse;}
+.header .head_btn .global_btn {display: none;}
+.top_header .social_links {font-size: 10px;}
+.header .head_btn .hamburger {display: block; font-size: 22px; color: var(--white);  background-color: var(--red); padding: 8px 10px;}
+.header .logo {width: 70%;}
+.nav_bar { padding: 15px; position: fixed; top: 0%; border-radius: 0px; width: 100%; max-width: 60%; transition: 1.5s; right: -100%; height: 100vh;}
+.nav_bar ul.flex  {flex-direction: column !important; margin-top: 30px; }
+.nav_bar ul.flex li {margin-top: 10px;}
+.nav_bar ul.flex li {width: 100%;}
+.nav_bar ul li a {font-size: 14px;}
+.nav_clos_bar_icon {display: block; font-size: 25px; text-align: end; width: 100%; margin-top: 20px; }
+.open {right: 0%; transition: 1.5s;}
+.top_header .top_side_bar .langauges a {font-size: 12px;}
+.top_header .top_side_bar .langauges a img {width: 24px;}
+.slider .item {padding: 180px 15px;}
+.owl-nav {display: none;}
+.benefits .row {flex-direction: column;}
+.benefits .row .langer_seva, .benefits .row .donation  {width: 100%;}
+.benefits .container {padding: 0;}
+.m_top { margin-top: 20px;}
+.slider .content {left: 0; right: 0; margin: 0 auto;}
+.About .updates_box { margin: 107px 70px 0px 70px; }
+.gallery .gallery_btns  #insta_btn {display: none;}
+.hanuman {animation: move 2s infinite; background-size: 170px; height: 100px;}
+.gallery .gallery_img {width: 48%;}
+.footer::before {top: -21%;}
+.top_header .top_side_bar .social_links i {font-size: 14px;}
+.top_header .top_side_bar .langauges {margin: 0px;} 
+.benefits .langer_seva,.benefits .donation .donation_image {padding: 15px 20px; background-size: 65px;}
+.About .global_btn {margin-top: 15px;}
+.About .blog_feed_bar  {background: none;}
+.About .blog_feed_bar,.About .updates_box {margin: 0px;}
+.About .updates_box ul li a {font-size: 14px;}
+.modal-content {max-width: 100%; height: 100%;}
+.footer_logo a {width: 100%; max-width: 100px;  margin: 0 auto; }
+.footer  {padding: 30px 0px 80px 0px;} 
+.footer::before {background-size: 260px;}
+.banner {padding: 200px 0px 100px;}
+.vedios_main .vedio_box {max-width: 100%;}  
+/* .nav_bar .main_dropdown li a:hover .dropdown {display: block;} */
+.nav_bar .dropdown {background-color: transparent;}
+.nav_bar .dropdown li {background-color: transparent; padding: 0;}
+.nav_bar .dropdown li a{color: var(--white); }
+.nav_bar .dropdown {position: static; display: block;}
+.contact_us  .row {flex-direction: column; gap: 30px;}
+.contact_us .contact_info {max-width: 100%;}
+.contact_us .from_main {width: 100%;}
+.contact_us .social_links i {font-size: 16px; height: 28px; width: 28px;}
+}
+
+
+
